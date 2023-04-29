@@ -8,7 +8,7 @@ def main(number):
         int: the absolute value of a "number"
     """
   
-    return abs(-8)
+    return abs(number)
 
-b= main(-8) #bu yerga mainni ichiga -8 yozsam ham 8 yozsam ham consoleda 8 chiqyapti tushuna olmadim
+b= main(-8)
 print(b)
