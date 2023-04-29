@@ -8,4 +8,8 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    return
+    value = (2+n)/3
+    return pow(value,2)
+
+b = main(4)
+print(b)
