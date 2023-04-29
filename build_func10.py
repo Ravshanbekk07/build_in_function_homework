@@ -9,4 +9,10 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    e = pow(y,1/2)*3
+    r = pow(x,2/3)
+    t = e + r
+    return round(t,2)
+
+b = main(8,4)
+print(b)
