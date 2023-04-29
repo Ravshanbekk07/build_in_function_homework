@@ -9,4 +9,12 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    z = pow(5,3)*6
+    x = pow(5,2)*3
+    c = pow(5,2)
+    v = z+x+c
+    return v
+
+b = main(5,2)
+print(b)
+
