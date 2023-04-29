@@ -9,4 +9,10 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    return
+    v = pow(6,3)
+    n = pow(3,6)
+    m = n+v
+    return m
+
+b = main(3,6)
+print(b)
