@@ -8,4 +8,9 @@ def main(a):
     Returns:
         float: The result to 2 decimal places
     """
-    return
+    return round(a,2)
+    
+b = main(3.456)
+q = main(round(7.5,1))
+print(b)
+print(q)
