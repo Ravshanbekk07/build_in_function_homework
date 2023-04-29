@@ -8,4 +8,7 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    return
+    
+    return pow(n+1,2)*3
+b = main(3.5)
+print(b)
